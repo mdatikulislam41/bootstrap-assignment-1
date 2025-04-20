@@ -387,3 +387,9 @@ footer {
   font-weight: 500;
   line-height: 22px; /* 100% */
 }
+#insta {
+  padding-block: 10.375rem;
+}
+.feed_title {
+  margin-block-end: 2.375rem;
+}
