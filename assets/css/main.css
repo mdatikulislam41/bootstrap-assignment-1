@@ -64,9 +64,21 @@ body {
 /* CSS Flex CLASS */
 
 /* Responsive Tablet content */
+.mobile {
+  display: inherit;
+}
+.desktop {
+  display: none !important;
+}
 @media only screen and (min-width: 768px) {
   html {
     font-size: 10px;
+  }
+  .mobile {
+    display: none !important;
+  }
+  .desktop {
+    display: flex !important;
   }
 }
 /* Responsive Desktop content */
@@ -79,7 +91,7 @@ body {
 /* Footer Design */
 footer {
   background-color: var(--footer-bg, #222222);
-  height: 114px;
+  padding-block: 2rem;
 }
 .footer_menu_link {
   color: #fff;
@@ -96,14 +108,15 @@ footer {
   text-underline-position: from-font;
 }
 .touch_in {
-  border-radius: 15px;
-
+  padding-block: 2.625rem;
+  padding-inline: 1.9375rem;
   &::after {
     content: "";
     position: absolute;
     inset: 0;
     background-color: #8a47f6;
-    opacity: 0.5;
+    opacity: 0.1;
+    border-radius: 15px;
   }
 }
 .icon_image {
@@ -114,7 +127,7 @@ footer {
 .icon_title {
   color: #333;
   font-family: var(--quicksand);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-style: normal;
   font-weight: 600;
   line-height: 22px;
@@ -389,7 +402,42 @@ footer {
 }
 #insta {
   padding-block: 10.375rem;
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/feed/Ellipse-12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 19.75rem;
+    height: 19.75rem;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
 }
 .feed_title {
   margin-block-end: 2.375rem;
+}
+label {
+  color: #333;
+  font-family: var(--quicksand);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+.form-control {
+  padding: 0.75rem 0.75rem !important;
+}
+#contact {
+  padding-block-end: 10rem;
+}
+.title_touch {
+  color: #333;
+  font-family: var(--quicksand);
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 100% */
 }
