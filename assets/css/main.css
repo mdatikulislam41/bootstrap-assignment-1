@@ -150,6 +150,8 @@ footer {
 /* Testimonial */
 #testimonial {
   position: relative;
+  padding-block-start: 4.3125rem;
+  padding-block-end: 4.625rem;
   &::after {
     position: absolute;
     content: "";
