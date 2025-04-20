@@ -70,6 +70,9 @@ body {
 .desktop {
   display: none !important;
 }
+.d-col {
+  width: 100%;
+}
 @media only screen and (min-width: 768px) {
   html {
     font-size: 10px;
@@ -79,6 +82,9 @@ body {
   }
   .desktop {
     display: flex !important;
+  }
+  .d-col {
+    width: 100%;
   }
 }
 /* Responsive Desktop content */
