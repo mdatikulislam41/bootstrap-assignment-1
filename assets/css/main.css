@@ -128,15 +128,7 @@ footer {
 .touch_in {
   padding-block: 2.625rem;
   padding-inline: 1.9375rem;
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: #8a47f6;
-    opacity: 0.1;
-    border-radius: 15px;
-    z-index: -1;
-  }
+  background-color: rgba(138, 71, 246, 0.1);
 }
 .icon_image {
   width: 51px;
