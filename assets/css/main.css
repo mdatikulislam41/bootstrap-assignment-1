@@ -18,19 +18,6 @@ html {
   font-size: 10px;
 }
 :root {
-  /* --primary-color: #ffffff;
-  --secondary-color: ;
-  --heading: #1f1235;
-  --subheading: #1b1425;
-  --text-primary: ;
-  --text-secondary: ;
-  --button: #ff6e6c;
-  --button-text: #1f1235;
-  --link-color: #ff6e6c;
-  --label: #ffffff;
-  --shadow-color: rgba(0, 0, 0, 0.075);
-  --border: #dee1e3; */
-
   --footer-bg: #222222;
   --btn-color: #fe8c45;
   --quicksand: "Quicksand", sans-serif;
@@ -76,6 +63,9 @@ body {
 .h-532 {
   height: min-content;
 }
+.mobile_height {
+  height: 60vh;
+}
 @media only screen and (min-width: 567px) {
   .h-532 {
     height: 532px;
@@ -97,6 +87,9 @@ body {
   .header_padding {
     padding-inline-start: 3.125rem !important;
     padding-inline-end: 3.25rem !important;
+  }
+  .mobile_height {
+    height: unset;
   }
 }
 /* Responsive Desktop content */
