@@ -95,17 +95,21 @@ body {
     width: 100%;
   }
   .header_padding {
-    padding-inline-start: 6.125rem !important;
-    padding-inline-end: 6.25rem !important;
+    padding-inline-start: 3.125rem !important;
+    padding-inline-end: 3.25rem !important;
   }
 }
 /* Responsive Desktop content */
 @media only screen and (min-width: 1024px) {
   html {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
     font-size: 16px !important;
   }
 }
-
 /* Footer Design */
 footer {
   background-color: var(--footer-bg, #222222);
@@ -189,8 +193,8 @@ footer {
     background-position: center;
     top: 0;
     right: 0;
-    width: 454px;
-    height: 454px;
+    width: 28.375rem;
+    height: 28.375rem;
     z-index: -1;
   } */
   /* &::before {
@@ -437,3 +441,8 @@ label {
   font-weight: 600;
   line-height: 34px; /* 100% */
 }
+
+/* fixing layout issue */
+/* header {
+  display: none !important;
+} */
