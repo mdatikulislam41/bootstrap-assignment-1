@@ -185,7 +185,7 @@ footer {
 /* Portfolio */
 #portfolio {
   padding-block: 10rem;
-  /* &::after {
+  &::after {
     position: absolute;
     content: "";
     background-image: url(/assets/images/portfolio/Ellipse-9.png);
@@ -196,8 +196,8 @@ footer {
     width: 28.375rem;
     height: 28.375rem;
     z-index: -1;
-  } */
-  /* &::before {
+  }
+  &::before {
     position: absolute;
     content: "";
     background-image: url(/assets/images/portfolio/Ellipse-10.png);
@@ -205,9 +205,9 @@ footer {
     background-position: center;
     bottom: 0;
     left: 0;
-    width: 454px;
-    height: 454px;
-  } */
+    width: 28.375rem;
+    height: 28.375rem;
+  }
 }
 .img-fit {
   width: 100%;
@@ -378,7 +378,7 @@ footer {
 }
 #price {
   padding-block-end: 10rem;
-  /* &::after {
+  &::after {
     position: absolute;
     content: "";
     background-image: url("../images/price/Ellipse-11.png");
@@ -387,7 +387,7 @@ footer {
     width: 28.375rem;
     height: 28.375rem;
     z-index: -1;
-  } */
+  }
 }
 .profile {
   background-color: rgb(227, 223, 253);
@@ -402,7 +402,7 @@ footer {
 }
 #insta {
   padding-block: 10.375rem;
-  /* &::after {
+  &::after {
     position: absolute;
     content: "";
     background-image: url("../images/feed/Ellipse-12.png");
@@ -414,7 +414,7 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 1;
-  } */
+  }
 }
 .feed_title {
   margin-block-end: 2.375rem;
